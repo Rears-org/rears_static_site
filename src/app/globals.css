@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;  /* Keep white background even in dark mode */
+    --foreground: #171717;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto), system-ui, sans-serif;
+}
+
+.custom-purple {
+  background-color: #E7C1FF;
+}
+
+.custom-spacial-color {
+  color: #564FCC;
+}
+
+.custom-color-p {
+  color: #121212;
+}
+
+.custom-special-color-button {
+  background-color: #564FCC;
+  color: #ffffff;
+}
+
+.custom-purple-color {
+  background-color: #564FCC
+}
+
+.custom-purple-font-color {
+  color: #564FCC
+}
