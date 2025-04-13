@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -8,11 +8,20 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
-
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Rears",
   description: "Good and Quality",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png'
+  }
 };
 
 export default function RootLayout({

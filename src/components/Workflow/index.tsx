@@ -19,15 +19,15 @@ export default function Workflow() {
           {/* Overlay Content */}
           <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center text-center px-2 sm:px-4">
             <div className="w-full md:w-1/2">
-              <div className="space-y-0.5 sm:space-y-1 md:mb-10">
-                <h1 className="text-base sm:text-lg md:text-4xl lg:text-5xl font-bold text-white max-w-3xl mx-auto">
+              <div className="space-y-0.5 sm:space-y-1 md:mb-5">
+                <h1 className="text-base sm:text-lg md:text-3xl lg:text-5xl font-bold text-white max-w-3xl mx-auto">
                   Problems come and
                 </h1>
-                <h1 className="text-base sm:text-lg md:text-4xl lg:text-5xl font-bold text-white max-w-3xl mx-auto">
+                <h1 className="text-base sm:text-lg md:text-3xl lg:text-5xl font-bold text-white max-w-3xl mx-auto">
                   get solved with ease
                 </h1>
               </div>
-              <p className="mt-1.5 sm:mt-4 text-[9px] sm:text-xs md:text-lg md:mb-10 text-gray-200 max-w-2xl mx-auto line-clamp-2 sm:line-clamp-3">
+              <p className="mt-1.5 sm:mt-4 text-[9px] sm:text-xs md:text-lg md:mb-4 text-gray-200 max-w-2xl mx-auto line-clamp-2 sm:line-clamp-3">
                 Our agile approach and proactive strategies allow us to address your IT needs with exceptional speed and precision. We focus on providing solutions that are not only effective but also sustainable for your long-term success.
               </p>
               <Link
