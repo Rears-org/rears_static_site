@@ -53,7 +53,7 @@ export default function Banner() {
                             <div className="text-center">
                                 <h2 className="lg:text-4xl mb-2 flex items-center md:text-3xl sm:text-2xl">
                                     <span className="custom-spacial-color font-semibold">
-                                        <CounterAnimation end={32} />
+                                        <CounterAnimation end={16} />
                                         <span>+</span>
                                     </span>
                                 </h2>
@@ -62,7 +62,7 @@ export default function Banner() {
                             <div className="text-center">
                                 <h2 className="lg:text-4xl mb-2 flex items-center md:text-3xl sm:text-2xl">
                                     <span className="custom-spacial-color font-semibold">
-                                        <CounterAnimation end={22} />
+                                        <CounterAnimation end={12} />
                                         <span>+</span>
                                     </span>
                                 </h2>

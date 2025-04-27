@@ -120,14 +120,14 @@ export default function Navbar() {
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="hidden md:flex items-center space-x-4">
+                    {/* <div className="hidden md:flex items-center space-x-4">
                         <Link
-                            href="/demo"
+                            href="#"
                             className="lg:text-xl md:text-[15px] bg-blue-600 font-medium text-white px-12 py-3 rounded-[8px] hover:bg-blue-700 hover:text-shadow-white transition-colors"
                         >
                             Request for Demo
                         </Link>
-                    </div>
+                    </div> */}
 
                     {/* Mobile menu button */}
                     <div className="md:hidden">

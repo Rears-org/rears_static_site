@@ -102,10 +102,10 @@ export default function Footer(){
               <ul>
                 <li className="mb-4 md:mb-7">
                   <a
-                    href="mailto:admin@rears.in"
+                    href="mailto:mariselvan@rears.in"
                     className="text-lg md:text-xl text-black hover:text-blue-600"
                   >
-                    admin@rears.in
+                    mariselvan@rears.in
                   </a>
                 </li>
                 <li className="mb-4 md:mb-7">
